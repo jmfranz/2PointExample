@@ -9,7 +9,8 @@ public class DistanceRenderer : MonoBehaviour
 
     void Start()
     {
-        isDistanceEnabled = true;
+       isDistanceEnabled = true;
+
     }
 
     // Update is called once per frame
@@ -18,6 +19,7 @@ public class DistanceRenderer : MonoBehaviour
         distance = Vector3.Distance(transform.position, Camera.main.transform.position);
         if (isDistanceEnabled)
         {
+
             if (distance > 8f)
             {
                 gameObject.GetComponent<Renderer>().enabled = false;

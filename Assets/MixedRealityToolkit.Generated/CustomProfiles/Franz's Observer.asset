@@ -17,7 +17,7 @@ MonoBehaviour:
   isStationaryObserver: 0
   observationExtents: {x: 8, y: 8, z: 8}
   observerVolumeType: 1
-  updateInterval: 2
+  updateInterval: 0.5
   meshPhysicsLayer: 31
   levelOfDetail: 1
   trianglesPerCubicMeter: 0
