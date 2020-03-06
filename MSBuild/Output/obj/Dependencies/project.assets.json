@@ -163,9 +163,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Franz\\Documents\\GitHub\\2PointExample\\Assets\\SpaceSyntax.Dependencies.msb4u.csproj",
-      "projectName": "SpaceSyntax.Dependencies.msb4u",
-      "projectPath": "C:\\Users\\Franz\\Documents\\GitHub\\2PointExample\\Assets\\SpaceSyntax.Dependencies.msb4u.csproj",
+      "projectUniqueName": "C:\\Users\\Franz\\Documents\\GitHub\\2PointExample\\Assets\\2PointExample.Dependencies.msb4u.csproj",
+      "projectName": "2PointExample.Dependencies.msb4u",
+      "projectPath": "C:\\Users\\Franz\\Documents\\GitHub\\2PointExample\\Assets\\2PointExample.Dependencies.msb4u.csproj",
       "packagesPath": "C:\\Users\\Franz\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Franz\\Documents\\GitHub\\2PointExample\\MSBuild\\Output\\obj\\Dependencies\\",
       "projectStyle": "PackageReference",
