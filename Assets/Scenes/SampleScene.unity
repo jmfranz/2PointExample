@@ -183,7 +183,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFocusRequired: 0
   keywords:
-  - keyword: Mesh
+  - keyword: Occlusion
     response:
       m_PersistentCalls:
         m_Calls:
