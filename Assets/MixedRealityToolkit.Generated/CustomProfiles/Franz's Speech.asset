@@ -31,7 +31,7 @@ MonoBehaviour:
       description: 
       axisConstraint: 0
   - localizationKey: 
-    keyword: Mesh
+    keyword: Occlusion
     keyCode: 50
     action:
       id: 0

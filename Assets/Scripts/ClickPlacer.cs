@@ -81,10 +81,10 @@ public class ClickPlacer : MonoBehaviour, IMixedRealityPointerHandler {
 
             //Let's disable the spacial mesh :)
             //Note that the observer is still running we are just not rendering the mesh
-            ObserverMeshToggler.ToggleObserverMeshes();
-            
+            GetComponent<ObserverMeshToggler>().DisableObserverMeshes();
+
             //Change resolution to fine
-            ObserverMeshToggler.ChangeObserverResolution();
+            GetComponent<ObserverMeshToggler>().ChangeObserverResolution();
 
 
         }

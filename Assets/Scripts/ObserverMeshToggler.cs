@@ -6,7 +6,7 @@ using UnityEngine;
 
 public class ObserverMeshToggler : MonoBehaviour
 {
-    public static void ToggleObserverMeshes()
+    public void DisableObserverMeshes()
     {
         var spatialAwarenessService = CoreServices.SpatialAwarenessSystem;
         var dataProviderAccess = spatialAwarenessService as IMixedRealityDataProviderAccess;
@@ -20,7 +20,7 @@ public class ObserverMeshToggler : MonoBehaviour
         }
     }
 
-    public static void ChangeObserverResolution()
+    public void ChangeObserverResolution()
     {
         var spatialAwarenessService = CoreServices.SpatialAwarenessSystem;
         var dataProviderAccess = spatialAwarenessService as IMixedRealityDataProviderAccess;
@@ -31,6 +31,20 @@ public class ObserverMeshToggler : MonoBehaviour
         {
             if (meshObserver != null)
                 meshObserver.LevelOfDetail = SpatialAwarenessMeshLevelOfDetail.Fine;
+        }
+    }
+
+    public void EnableObserverMeshes()
+    {
+        var spatialAwarenessService = CoreServices.SpatialAwarenessSystem;
+        var dataProviderAccess = spatialAwarenessService as IMixedRealityDataProviderAccess;
+        var meshObservers = dataProviderAccess?.GetDataProviders<IMixedRealitySpatialAwarenessMeshObserver>();
+        if (meshObservers == null) return;
+
+        foreach (var meshObserver in meshObservers)
+        {
+            if (meshObserver != null)
+                meshObserver.DisplayOption = SpatialAwarenessMeshDisplayOptions.Occlusion;
         }
     }
 }

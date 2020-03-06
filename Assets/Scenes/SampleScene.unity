@@ -166,7 +166,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 107547460}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b86e94328e379324f81bf76075f0ae40, type: 3}
+  m_Script: {fileID: 11500000, guid: 92b674ae9bad5f44db736aeaf394d957, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &107547464
@@ -188,7 +188,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 107547463}
-          m_MethodName: ToggleRenderer
+          m_MethodName: EnableObserverMeshes
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
